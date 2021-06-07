@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="최병준, 중부대학교, 개인블로그, BLOG">
+    <meta name="description" content="Byeongjun's BLOG">
+    <meta name="author" content="Byeongjun Choi, 최병준">
+    <title>BLOG | TEAMPROFJECT</title>
+    <link rel="stylesheet" href="./CSS/style.css">
+    <link rel="icon" href="./img/icon.ico">
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <a href="index.html" id="logo">
+                <img src="./img/bLOGO.png" alt="">
+            </a>
+            <input type="checkbox" id="menuToggler" class="input-toggler" value="1" autofocus="true">
+            <label for="menuToggler" id="menuTogglerLabel" class="menu-toggler" role="button" aria-pressed="false"
+                aria-expanded="false" aria-label="Navigation button">
+                <span class="menu-toggler__line"></span>
+                <span class="menu-toggler__line"></span>
+                <span class="menu-toggler__line"></span>
+            </label>
+            <nav id="sidebar" class="sidebar" role="navigation" aria-labelledby="menuTogglerLabel" aria-hidden="true">
+                <ul id="menubar" class="menu" role="menubar" aria-orientation="vertical">
+                    <li class="menu__item"><a class="menu__link" href="index.html" tabindex="-1">Home</a></li>
+                    <li class="menu__item"><a class="menu__link" href="profile.html" tabindex="-1">Profile</a></li>
+                    <li class="menu__item"><a class="menu__link" href="portfolio.html" tabindex="-1">Portfolio</a>
+                    </li>
+                    <li class="menu__item"><a class="menu__link" href="teamproject.html" tabindex="-1">Teamproject</a>
+                    </li>
+                    <li class="menu__item"><a class="menu__link" href="video.html" tabindex="-1">Video</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <!-- The Modal -->
+    <div id="myModal" class="modal">
+
+        <!-- Modal content -->
+        <div class="modal-content">
+            <div class="modalbg"></div>
+            <span class="close">&times;</span>
+            <div class="modalvid_area">
+                <video id="modal-bgvid" preload="auto" autoplay="true" loop="loop" muted="muted" volume="0">
+                    <source src="./video/vid2.mp4">
+                </video>
+            </div>
+            <div class="modal-text">
+                <h1>팀프로젝트 소개</h1>
+                <br>
+                <h2>팀명 : KAB</h2>
+                <p>Kim and Boys</p>
+                <br>
+                <h2>팀홈페이지명: KGC</h2>
+                <p>Kim's Game Channel</p>
+                <br>
+                <h2>팀프로젝트 목표</h2>
+                <p>게임 장르에 대한 소개 및 관련 게임 추천</p>
+            </div>
+
+        </div>
+
+    </div>
+    <div class="modal-overlay"></div>
+    <div id="worker">
+        <div class="des">
+            <div class="kab-container">
+                <div class="kabimg-wrap">
+                    <img src="https://cdn.discordapp.com/attachments/798570204384854079/851192162359443508/logo.jpg"
+                        alt="" class="kabimg">
+                </div>
+                <div class="kab-des">
+                    <button id="myBtn">About KAB</button>
+                    <br>
+                    <a href="https://kimandboys.netlify.app/ " target='_blank'><button id="myBtn">HOMEPAGE
+                            →</button></a>
+                </div>
+            </div>
+        </div>
+        <br>
+        <div id="app" class="container3">
+            <div class="card-wrap">
+                <div class="card" style="transform: rotateY(0deg) rotateX(0deg);">
+                    <a href="https://welljunyoung.netlify.app/index.html" target='_blank'>
+                        <div class="card-bg"
+                            style="background-image: url(&quot;./img/fps.png&quot;); transform: translateX(-20px) translateY(0px);">
+                        </div>
+                        <div class="card-info">
+                            <h1>전준영</h1>
+                            <p>FPS 장르에 대한 정보 전달</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="card-wrap">
+                <div class="card" style="transform: rotateY(0deg) rotateX(0deg);">
+                    <a href="#" target='_blank'>
+                        <div class="card-bg"
+                            style="background-image: url(&quot;./img/rpg.png&quot;); transform: translateX(-12px) translateY(0px);">
+                        </div>
+                        <div class="card-info">
+                            <h1>김준현</h1>
+                            <p>RPG 장르에 대한 정보 전달</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="card-wrap">
+                <div class="card" style="transform: rotateY(0deg) rotateX(0deg);">
+                    <a href="#" target='_blank'>
+                        <div class="card-bg"
+                            style="background-image: url(&quot;./img/rtm.png&quot;); transform: translateX(-20px) translateY(0px);">
+                        </div>
+                        <div class="card-info">
+                            <h1>김찬욱</h1>
+                            <p>RHYTHM 장르에 대한 정보 전달</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="card-wrap">
+                <div class="card" style="transform: rotateY(0deg) rotateX(0deg);">
+                    <a href="#" target='_blank'>
+                        <div class="card-bg"
+                            style="background-image: url(&quot;./img/spt.png&quot;); transform: translateX(-20px) translateY(0px);">
+                        </div>
+                        <div class="card-info">
+                            <h1>정민재</h1>
+                            <p>SPORT 장르에 대한 정보 전달</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="card-wrap">
+                <div class="card" style="transform: rotateY(0deg) rotateX(0deg);">
+                    <a href="#" target='_blank'>
+                        <div class="card-bg"
+                            style="background-image: url(&quot;./img/aos.png&quot;); transform: translateX(-20px) translateY(0px);">
+                        </div>
+
+                        <div class="card-info">
+                            <h1>최병준</h1>
+                            <p>AOS 장르에 대한 정보 전달</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <p style="color: rgb(211, 211, 211); text-align: center;">카드 클릭 시 팀원의 홈페이지로 이동</p>
+    </div>
+    <footer>
+        <div class="jblogo">
+            <a href="https://www.joongbu.ac.kr/home/" target='_blank'><img
+                    src="https://edu.joongbu.ac.kr/customs/main/footer_logo.png" alt=""></a>
+        </div>
+        <div class="footnav">
+            <ul>
+                <li class="fonav1 fonav2">개인정보처리방침</li>
+                <li class="fonav1">이메일무단수집거부</li>
+            </ul>
+            <p>Copyright ⓒ 2021 BJ's BLOG. ALL RIGHTS RESERVED.</p>
+        </div>
+    </footer>
+
+    <script src="./JS/js.js"></script>
+
+</body>
+
+
+</html>
