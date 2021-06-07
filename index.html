@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="최병준, 중부대학교, 개인블로그, BLOG">
+    <meta name="description" content="Byeongjun's BLOG">
+    <meta name="author" content="Byeongjun Choi, 최병준">
+    <title>BLOG | HOME</title>
+    <link rel="stylesheet" href="./CSS/style.css">
+    <link rel="icon" href="./img/icon.ico">
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <a href="index.html" id="logo">
+                <img src="./img/bLOGO.png" alt="">
+            </a>
+            <input type="checkbox" id="menuToggler" class="input-toggler" value="1" autofocus="true">
+            <label for="menuToggler" id="menuTogglerLabel" class="menu-toggler" role="button" aria-pressed="false"
+                aria-expanded="false" aria-label="Navigation button">
+                <span class="menu-toggler__line"></span>
+                <span class="menu-toggler__line"></span>
+                <span class="menu-toggler__line"></span>
+            </label>
+            <nav id="sidebar" class="sidebar" role="navigation" aria-labelledby="menuTogglerLabel" aria-hidden="true">
+                <ul id="menubar" class="menu" role="menubar" aria-orientation="vertical">
+                    <li class="menu__item"><a class="menu__link" href="index.html" tabindex="-1">Home</a></li>
+                    <li class="menu__item"><a class="menu__link" href="profile.html" tabindex="-1">Profile</a></li>
+                    <li class="menu__item"><a class="menu__link" href="portfolio.html" tabindex="-1">Portfolio</a>
+                    </li>
+                    <li class="menu__item"><a class="menu__link" href="teamproject.html" tabindex="-1">Teamproject</a>
+                    </li>
+                    <li class="menu__item"><a class="menu__link" href="video.html" tabindex="-1">Video</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+
+
+    <main>
+
+        <div id="showcase">
+            <div class="video_area">
+                <video id="bgvid" preload="auto" autoplay="true" loop="loop" muted="muted" volume="0">
+                    <source src="./video/bgvid.mp4">
+                </video>
+            </div>
+            <div id="bgtext">
+                <h1 class="welcome"><span>welcome</span></h1>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="jblogo">
+            <a href="https://www.joongbu.ac.kr/home/" target='_blank'><img
+                    src="https://edu.joongbu.ac.kr/customs/main/footer_logo.png" alt=""></a>
+        </div>
+        <div class="footnav">
+            <ul>
+                <li class="fonav1 fonav2">개인정보처리방침</li>
+                <li class="fonav1">이메일무단수집거부</li>
+            </ul>
+            <p>Copyright ⓒ 2021 BJ's BLOG. ALL RIGHTS RESERVED.</p>
+        </div>
+    </footer>
+</body>
+
+
+
+</html>
